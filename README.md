@@ -23,3 +23,4 @@ TwitterのOauthを用いるためにはhttps://apps.twitter.com　のページ�
 
 >>python manage.py runserver
 
+実際の動作サンプル：https://www.youtube.com/watch?v=K9LR5iYMR9c&index=1&list=PLUnzXnT1OYdGJT-frZmMAGVgprB_VwKE0
