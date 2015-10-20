@@ -14,10 +14,10 @@ https://pypi.python.org/pypi/django-ajax-chat
 
 >>python manage.py syncdb
 
-TwitterのOauthを用いるためには　https://apps.twitter.com/　のページでアプリを登録してください。
+TwitterのOauthを用いるためにはhttps://apps.twitter.comのページでアプリを登録してください。
 ここで作成されるCONSUMER_KEY と　CONSUMER_SECRET をdjangoChat/views.py内の25,26行目に記入してください。
 
-あとは、runserverをしてサーバを動かし、http://127.0.0.1:8000/chat/　にアクセスするとtwitterの認証が聞かれ、認証が通ると
+あとは、runserverをしてサーバを動かし、http://127.0.0.1:8000/chatにアクセスするとtwitterの認証が聞かれ、認証が通ると
 チャットルームに移動することができます。
 また、チャットで書き込んだことは、その人のツイッターにもコメントが反映されるようになっています。（ハッシュタグをつけて）
 
